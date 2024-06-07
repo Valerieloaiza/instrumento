@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1{
+    text-align: center;
+    color: rgb(189, 60, 194);
+    
+}
+
+.valencita {
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+    text-align: center;
+   
+}    
+
+.valerie img {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+   
+}    
+
+ .valerie {
+
+    height: 400px;
+    width: 320px;
+    background-color: rgb(247, 247, 247);
+    margin: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 35px -10px palevioletred;
+    
+ 
+}   
+
+.valerie h1{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.valerie p{
+    margin-top: 15px;
+    margin: 10px;
+}
+.vall img{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+   
+}
+
+.vall{
+
+    height: 400px;
+    width: 320px;
+    background-color: rgb(247, 247, 247);
+    margin: 60px;
+    text-align: center; 
+    margin-top: 200px;
+    box-shadow: 0px 0px 35px -15px palevioletred;
+  
+}
+.vall h1{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.vall p{
+    margin-top: 15px;
+    margin: 10px;
+}
+
+.linea{
+    width:180vh;
+    margin-left: 80px;
+}
+
+footer{
+text-align: center;
+color: fuchsia;
+}
+
+@media (max-width:480px) {
+
+ header h1{
+    margin-left: 20px;
+ }
+
+ .valencita{
+
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 10px;
+    
+ }
+
+ .valerie {
+    margin-top: 20px;
+   
+ }
+ 
+
+ .vall {
+ margin-top:20px;
+
+ }
+footer{
+  margin-left: 40px;
+
+}
+.linea{
+    width: 70%;
+    
+    
+}
+}
